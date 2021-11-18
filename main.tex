@@ -29,26 +29,37 @@
 
 Here is where the introduction would go. 
 
+% I can add some thoughts here as comments and they won't show up in the pdf. 
+
 \subsection{Citations}
 
 Some authors said something interesting \citep{gerstenberg2021csm}. \cite{gelman1986categories} said something even more interesting.
+
+\subsubsection{Another section}
+
+\lipsum[1]
+
+\paragraph{And another section}
+
+\lipsum[1]
 
 \section{Methods}
 
 \subsection{Figures}
 
-This is how you add figures to your document. 
+This is how you add figures to your document. You can then refer to the figure in text like so (see Figure~\ref{fig:example_figure}). 
 
 \begin{figure}[t]
     \centering
-    \includegraphics{example_figure}
-    \caption{Caption}
+    \includegraphics[width=0.99\columnwidth]{example_figure}
+    \caption{An example figure.}
     \label{fig:example_figure}
 \end{figure}
 
+
 \subsection{Tables} 
 
-\url{https://www.tablesgenerator.com/} is helpful for making tables. 
+\url{https://www.tablesgenerator.com/} is helpful for making tables. Table~\ref{tab:simple_table} shows an example table. 
 
 \begin{table}[b]
 \caption{A simple table.}
